@@ -1,0 +1,17 @@
+ #include<stdio.h>
+ int main()
+ {
+    int a,b,c,d,average,total;
+    printf("enter the values of a,b,c,d:");
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    total=a+b+c+d;
+    average=(a+b+c+d)%4;
+     if(average>=80&&average<=100)
+       printf("the grade is good:");
+     else if (average>=60&&average<=79)
+        printf("the grade is average:");
+     else if(average>=40&&average<=59)
+        printf("the grade is fair:");
+    else
+       printf("the grade is fail:");
+ }
