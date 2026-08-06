@@ -1,0 +1,11 @@
+#include<stdio.h>
+  int main()
+  {
+     int a,b,c;
+     printf("the values of a,b,c is:");
+     scanf("%d%d%d",&a,&b,&c);
+    if((a+b>c) && (b+c>a) && (c+a>b))
+     printf("a,b,c forms triangle:");
+    else
+     printf("a,b,c don't form triangle:");
+ }
