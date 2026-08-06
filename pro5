@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int limit;
+
+    printf("Enter the upper limit: ");
+    scanf("%d", &limit);
+
+    // Loop starts at 1 and repeats until it hits the limit
+    for (int i = 1; i <= limit; i++) {
+        printf("%d ", i);
+    }
+    printf("\n");
+
+    return 0;
+}
